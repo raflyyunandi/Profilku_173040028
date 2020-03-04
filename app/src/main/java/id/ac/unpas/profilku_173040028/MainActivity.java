@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         changeContent(ProfileFragment.newInstance(this));
+        changeContent(GalleryFragment.newInstance(this));
+        changeContent(ContactFragment.newInstance(this));
+        changeContent(SettingFragment.newInstance(this));
 
         buttonProfile = (Button)findViewById(R.id.btn_profile);
         buttonGallery = (Button)findViewById(R.id.btn_gallery);

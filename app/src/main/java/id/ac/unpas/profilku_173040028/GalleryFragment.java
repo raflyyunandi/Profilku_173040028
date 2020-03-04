@@ -7,12 +7,12 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-public class GalleryFragment {
+public class GalleryFragment extends Fragment{
     public static MainActivity mainActivity;
 
     public static Fragment newInstance(MainActivity activity) {
         mainActivity = activity;
-        return new ProfileFragment();
+        return new GalleryFragment();
     }
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle SavedInstanceState){

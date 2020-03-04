@@ -32,7 +32,7 @@ public class Login extends AppCompatActivity {
                 username = editUsername.getText().toString();
                 password = editPassword.getText().toString();
                 if (!username.isEmpty() || !password.isEmpty()) {
-                    if (username.equalsIgnoreCase("praktikan") && password.equalsIgnoreCase("123")) {
+                    if (username.equalsIgnoreCase("123") && password.equalsIgnoreCase("123")) {
                         Intent i = new Intent(Login.this, MainActivity.class);
                         startActivity(i);
                     } else {
